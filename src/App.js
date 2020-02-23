@@ -1,11 +1,11 @@
 import React from "react";
-import { Provider } from "react-redux";
-import store from "./js/store/store";
 import List from "./js/components/List";
+import CreateArticle from "./js/components/createArticle";
 
 function App() {
   return (
     <div>
+      <CreateArticle />
       <List />
     </div>
   );
